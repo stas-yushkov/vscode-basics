@@ -52,12 +52,13 @@ div {
   /* border-radius: 100%; */
   border-radius: 7%;
 
-  font-family: Arial, Tahoma;
+  /* font-family: Arial, Tahoma;
   font-size: 20px;
   line-height: 20px;
   font-weight: bold;
   text-decoration: underline line-through;
-  font-style: italic;
+  font-style: italic; */
+  font: bold 20px/30px Arial, sans-serif;
 }
 
 /* a {
