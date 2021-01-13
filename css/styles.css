@@ -56,12 +56,13 @@ div {
   font-size: 20px;
   line-height: 20px;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: underline line-through;
+  font-style: italic;
 }
 
-a {
+/* a {
   text-decoration: none;
-}
+} */
 
 p {
   color: red;
