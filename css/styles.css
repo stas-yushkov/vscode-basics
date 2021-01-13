@@ -60,7 +60,12 @@ div {
   font-style: italic; */
 
   font: bold 20px/30px Arial, sans-serif;
-  text-align: center;
+  text-align: justify;
+  /* text-transform: uppercase; */
+}
+
+li {
+  list-style: georgian;
 }
 
 /* a {
