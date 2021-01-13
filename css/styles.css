@@ -50,7 +50,7 @@ div {
 
   border: 10px solid #000;
   /* border-radius: 100%; */
-  border-radius: 7%;
+  border-radius: 9%;
 
   /* font-family: Arial, Tahoma;
   font-size: 20px;
@@ -58,6 +58,7 @@ div {
   font-weight: bold;
   text-decoration: underline line-through;
   font-style: italic; */
+
   font: bold 20px/30px Arial, sans-serif;
 }
 
