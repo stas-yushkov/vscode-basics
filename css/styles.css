@@ -1,4 +1,7 @@
 /* туть учу css */
+
+/* Используем директиву импорт для  normalize.css*/
+@import 'normalize.css';
 div {
   width: 500px;
   background-color: crimson;
