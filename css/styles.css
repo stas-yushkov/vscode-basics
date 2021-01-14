@@ -4,7 +4,12 @@
 /* по идее этот файл теперь можна использовать в разных страницах) */
 
 li {
-  color: blue;
+  color: orange;
+}
+
+.menu a {
+  background: orchid;
+  text-decoration: none;
 }
 
 [href="http://google.com"]
