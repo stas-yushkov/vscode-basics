@@ -10,7 +10,17 @@ li {
   /* .(dot is a class-selector)(class-name) */
   color: blueviolet;
   background: black;
+  font-size: 30px;
 }
+
+#box {
+  background-color: cadetblue;
+}
+
+.active-item {
+  text-decoration: underline;
+}
+
 p {
   /* this is simple element selector */
   color: red;
