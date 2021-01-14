@@ -7,7 +7,13 @@ li {
   color: blue;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 [type='text'] {
+  /* браузер ищет по странице элемент с таким атрибутом и применяет ему этот стиль */
   color: chocolate;
 }
 
