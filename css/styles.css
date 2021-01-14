@@ -7,7 +7,7 @@ li {
   color: blue;
 }
 
-.input-text {
+[type='text'] {
   color: chocolate;
 }
 
