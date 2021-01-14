@@ -24,8 +24,13 @@ li {
   font-size: 30px;
 }
 
-#box {
+/* #box {
   background-color: cadetblue;
+} */
+
+div p {
+  /* селектор потомков */
+  color: green;
 }
 
 .menu_item {
