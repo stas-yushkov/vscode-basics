@@ -7,8 +7,9 @@ li {
   color: blue;
 }
 
-.main-link {
-  color: black;
+[href="http://google.com"]
+{
+  color: red;
   text-decoration: line-through;
 }
 
