@@ -2,12 +2,17 @@
 /* Используем директиву импорт для  normalize.css. это полезно чтобы разделять в больших проектах стили на модули. а уже в можулях раскиданы стили для какого-то куска функциональности*/
 @import 'normalize.css';
 /* по идее этот файл теперь можна использовать в разных страницах) */
+* {
+  /* THIs sellect all page elements */
+  border: 2px solid black;
+}
+
 li {
   color: blue;
 }
 
 .menu {
-  /* .(dot is a class-selector)(class-name) */
+  /* .(dot is a class-selector)(class-name) классов для одного элемента может быть много, а айди один на страницу. если айди повторяется, то скрипт по ДОМ найдет только 1й айди. Стилизация должна происходить через классы а не айди.*/
   color: blueviolet;
   background: black;
   font-size: 30px;
@@ -15,6 +20,10 @@ li {
 
 #box {
   background-color: cadetblue;
+}
+
+.menu_item {
+  font-weight: bold;
 }
 
 .active-item {
