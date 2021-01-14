@@ -6,6 +6,11 @@ li {
   color: blue;
 }
 
+.menu {
+  /* .(dot is a class-selector)(class-name) */
+  color: blueviolet;
+  background: black;
+}
 p {
   /* this is simple element selector */
   color: red;
