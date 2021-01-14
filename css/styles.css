@@ -28,9 +28,9 @@ li {
   background-color: cadetblue;
 } */
 
-div p {
+#box p {
   /* селектор потомков */
-  color: green;
+  color: blueviolet;
 }
 
 .menu_item {
