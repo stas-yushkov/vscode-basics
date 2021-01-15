@@ -16,6 +16,11 @@ li {
   text-decoration: line-through;
 }
 
+.menu .menu_item > a + ul {
+  /* селектор сестринский  */
+  background: purple;
+}
+
 [href="http://google.com"]
 {
   color: red;
