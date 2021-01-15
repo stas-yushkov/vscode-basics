@@ -21,6 +21,11 @@ li {
   background: purple;
 }
 
+div + p {
+  background: black;
+  color: white;
+}
+
 [href="http://google.com"]
 {
   color: red;
