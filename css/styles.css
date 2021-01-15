@@ -12,6 +12,10 @@ li {
   text-decoration: none;
 }
 
+.menu .menu_item > a {
+  text-decoration: line-through;
+}
+
 [href="http://google.com"]
 {
   color: red;
