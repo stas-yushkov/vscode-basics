@@ -3,67 +3,67 @@
 @import 'normalize.css';
 /* по идее этот файл теперь можна использовать в разных страницах) */
 
-li {
+/* li {
   color: orange;
-}
+} */
 
-.menu a {
+/* .menu a {
   background: orchid;
   text-decoration: none;
-}
+} */
 
-.menu .menu_item > a {
+/* .menu .menu_item > a {
   text-decoration: line-through;
-}
+} */
 
-.menu .menu_item > a + ul {
-  /* селектор сестринский  */
-  background: purple;
-}
+/* .menu .menu_item > a + ul { */
+/* селектор сестринский  */
+/* background: purple; */
+/* } */
 
-div + p {
+/* div + p {
   background: black;
   color: white;
-}
+} */
 
-[href="http://google.com"]
+/* [href="http://google.com"]
 {
   color: red;
   text-decoration: line-through;
-}
+} */
 
-[type='text'] {
-  /* браузер ищет по странице элемент с таким атрибутом и применяет ему этот стиль */
-  color: chocolate;
-}
+/* [type='text'] { */
+/* браузер ищет по странице элемент с таким атрибутом и применяет ему этот стиль */
+/* color: chocolate; */
+/* } */
 
-.menu {
-  /* .(dot is a class-selector)(class-name) классов для одного элемента может быть много, а айди один на страницу. если айди повторяется, то скрипт по ДОМ найдет только 1й айди. Стилизация должна происходить через классы а не айди.*/
-  color: blueviolet;
-  font-size: 30px;
-}
+/* .menu { */
+/* .(dot is a class-selector)(class-name) классов для одного элемента может быть много, а айди один на страницу. если айди повторяется, то скрипт по ДОМ найдет только 1й айди. Стилизация должна происходить через классы а не айди.*/
+/* color: blueviolet; */
+/* font-size: 30px; */
+/* } */
 
 /* #box {
   background-color: cadetblue;
 } */
 
-#box p {
-  /* селектор потомков */
-  color: blueviolet;
-}
+/* #box p { */
+/* селектор потомков */
+/* color: blueviolet; */
+/* } */
 
-.menu_item {
+/* .menu_item {
   font-weight: bold;
-}
+} */
 
-.active-item {
+/* .active-item {
   text-decoration: underline;
-}
+} */
 
-p {
-  /* this is simple element selector */
-  color: red;
-}
+/* p { */
+/* this is simple element selector */
+/* color: red; */
+/* } */
 
 /* div {
   width: 500px;
