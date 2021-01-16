@@ -2,7 +2,15 @@
 /* Используем директиву импорт для  normalize.css. это полезно чтобы разделять в больших проектах стили на модули. а уже в можулях раскиданы стили для какого-то куска функциональности*/
 @import 'normalize.css';
 /* по идее этот файл теперь можна использовать в разных страницах) */
-body {
+.box {
+  /* width: 900px; */
+  height: 100px;
+  background: grey;
+  padding: 30px 20px;
+  margin: 40px;
+  border: 5px solid black;
+}
+/* body {
   width: 500px;
 }
 .wrapper {
@@ -13,7 +21,7 @@ body {
   width: 50%;
   background: black;
   color: white;
-}
+} */
 /* li {
   color: orange;
 } */
