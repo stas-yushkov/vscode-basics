@@ -6,6 +6,11 @@
   width: 1440px;
   background: green;
 }
+.box {
+  width: 50%;
+  background: black;
+  color: white;
+}
 /* li {
   color: orange;
 } */
